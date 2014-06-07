@@ -8,6 +8,7 @@
 
         <!-- Le styles -->
         <link href="/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="/assets/css/style.css" rel="stylesheet">
         <style>
         body {
             padding-top: 60px; /* make the container go to bottom of topbar */
@@ -17,51 +18,10 @@
     </head>
     <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                </button>
-
-                <a class="brand" href="/" style="color:#B3EE3A">dru</a>
-
-                <div class="nav-collapse collapse">
-                    <ul class="nav">
-                        <li class="dropdown">
-                            <a href="/assets/drulang_resume_2013.pdf">Resume</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/drulang">GitHub</a>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="/freelance">Freelance<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/freelance">General</a></li>
-                                <li><a href="/freelance?tbl=programming">Programming</a></li>
-                                <li><a href="/freelance?tbl=db">Database Design</a></li>
-                                <li><a href="/freelance?tbl=automation">Automation</a></li>
-                                <li><a href="/freelance?tbl=quote">Quote</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="homelab">Home Lab</a></li>
-                                <li><a href="brew">Home Brewing</a></li>
-                                <li><a href="lbt">Learn By Testin</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <a href="https://twitter.com/drulang"><img src="/assets/img/twitter-bird.png" class="img-rounded pull-right" height="42" width="42"/></a>
-                </div><!--/.nav-collapse -->
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        {% block content %}
-        {% endblock %}
-    </div> <!-- /container -->
+        <div class="container">
+            {% block content %}
+            {% endblock %}
+        </div> <!-- /container -->
 
         <script src="/assets/js/jquery.js"></script>
         <script src="/assets/js/bootstrap-transition.js"></script>

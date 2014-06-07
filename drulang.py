@@ -23,5 +23,5 @@ def lbt():
     return render_template("lbt.html")
 
 if __name__ == "__main__":
-    dlapp.run(host="0.0.0.0")
+    dlapp.run(host="0.0.0.0", port=5002)
 
