@@ -1,5 +1,39 @@
+a {
+    color: black;
+}
+
+a:hover
+{ 
+    text-decoration: none;
+    color: #13ED13;
+}
+
 .drulogo {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.side-menu {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 2;
+    position: absolute;
+    top: 30%;
+    //bottom:10%;
+    right: 0;
+    margin-right: 20px;
+}
+
+.side-menu ul {
+    list-style-type: none;
+}
+
+.side-menu ul li {
+    margin-top: 15px;
+}
+
+.side-menu img {
+    height: 32px;
+    width: 32px;
 }
