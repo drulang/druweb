@@ -19,9 +19,7 @@ a:hover
     font-weight: 100;
     line-height: 2;
     position: absolute;
-    top: 30%;
-    //bottom:10%;
-    right: 0;
+    top: 25%;
     margin-right: 20px;
 }
 
@@ -36,4 +34,12 @@ a:hover
 .side-menu img {
     height: 32px;
     width: 32px;
+}
+
+.side-menu .submenu {
+    font-size: 25px;
+}
+
+.hide {
+    display: none;
 }
