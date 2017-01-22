@@ -14,7 +14,17 @@ a:hover
     margin-right: auto;
 }
 
+.app-list {
+    padding-top: 25px;
+}
+
+.app-list li {
+    display: inline;
+    padding-left: 20px;
+}
+
 .side-menu {
+    font-family: 'Roboto-Light', sans-serif;
     font-size: 26px;
     font-weight: 100;
     line-height: 2;
@@ -28,7 +38,7 @@ a:hover
 }
 
 .side-menu ul li {
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .side-menu img {
